@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{page_title}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="stylesheet" href="{{root}}assets/style.css">
+{{alternates}}
+</head>
+<body>
+  <header>
+    <h1>{{title}}</h1>
+    <nav>
+      <a href="index.html">{{nav.home}}</a>
+      <a href="assistant.html">{{nav.assistant}}</a>
+      <a href="privacy.html">{{nav.privacy}}</a>
+      <a href="../index.html">{{nav.languages}}</a>
+    </nav>
+  </header>
+  <main>
+{{body}}
+  </main>
+  <footer>
+    {{app}} · <a href="{{repo}}">{{common.source}}</a>
+  </footer>
+</body>
+</html>

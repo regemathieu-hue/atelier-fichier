@@ -53,3 +53,11 @@ footer {
   font-size: 0.85rem;
 }
 ul { padding-left: 1.3em; }
+.languages {
+  columns: 2;
+  column-gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+@media (min-width: 600px) { .languages { columns: 3; } }
+.languages li { break-inside: avoid; padding: 2px 0; }

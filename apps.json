@@ -1,0 +1,12 @@
+{
+  "base_url": "https://regemathieu-hue.github.io/atelier-fichier",
+  "default_locale": "en-US",
+  "updated": "2026-10-23",
+  "apps": [
+    {
+      "id": "atelier-fichier",
+      "name": "Atelier Fichier",
+      "repo": "https://github.com/regemathieu-hue/atelier-fichier"
+    }
+  ]
+}
